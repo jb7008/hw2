@@ -14,7 +14,7 @@ all: $(ALL)
 	@echo "Checking format violation by a script..." | tee -a $(SUM)
 	@./checker $@.c | tee -a $(SUM)
 	@echo "Compiling "$<" to "$@ | tee -a $(SUM)
-	@gcc -o $@ $<
+	@gcc -o $@ $< -lm
 	@for input in $(wildcard $@.input*) ; do \
 		echo "Comparing using input "$$input" and answer "`echo $$input | sed -e "s/input/ans/g"` | tee -a $(SUM) ; \
 		echo "Diff output (empty line means correct):\n" | tee -a $(SUM) ; \
