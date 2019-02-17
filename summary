@@ -1,19 +1,19 @@
 ======---q1---=======
-Sun Feb 17 00:47:10 EST 2019
+Sun Feb 17 09:47:25 EST 2019
 Checking format violation by a script...
 Compiling q1.c to q1
 Comparing using input q1.input and answer q1.ans
 Diff output (empty line means correct):
 
 ======---q4---=======
-Sun Feb 17 00:47:10 EST 2019
+Sun Feb 17 09:47:25 EST 2019
 Checking format violation by a script...
 Compiling q4.c to q4
 Comparing using input q4.input and answer q4.ans
 Diff output (empty line means correct):
 
 ======---q5---=======
-Sun Feb 17 00:47:10 EST 2019
+Sun Feb 17 09:47:25 EST 2019
 Checking format violation by a script...
 Compiling q5.c to q5
 Comparing using input q5.input.1 and answer q5.ans.1
@@ -23,25 +23,21 @@ Comparing using input q5.input.2 and answer q5.ans.2
 Diff output (empty line means correct):
 
 ======---q6---=======
-Sun Feb 17 00:47:10 EST 2019
+Sun Feb 17 09:47:25 EST 2019
 Checking format violation by a script...
 Compiling q6.c to q6
 Comparing using input q6.input and answer q6.ans
 Diff output (empty line means correct):
 
-2c2
-< Enter time (minutes seconds): 42.24 feet/sec    8.00 meter/sec
----
-> Enter time (minutes seconds): 42.24 feet/sec    12.87 meter/sec
 ======---q9---=======
-Sun Feb 17 00:47:10 EST 2019
+Sun Feb 17 09:47:25 EST 2019
 Checking format violation by a script...
 Compiling q9.c to q9
 Comparing using input q9.input and answer q9.ans
 Diff output (empty line means correct):
 
 ======---q11---=======
-Sun Feb 17 00:47:10 EST 2019
+Sun Feb 17 09:47:25 EST 2019
 Checking format violation by a script...
 File q11.c, line 20: [PUT SPACE AROUND OPERATORS]:
   printf("**** Ratio of six-speed gearbox ****\n");
@@ -52,7 +48,7 @@ Comparing using input q11.input and answer q11.ans
 Diff output (empty line means correct):
 
 ======---q12---=======
-Sun Feb 17 00:47:10 EST 2019
+Sun Feb 17 09:47:25 EST 2019
 Checking format violation by a script...
 Compiling q12.c to q12
 Comparing using input q12.input and answer q12.ans
