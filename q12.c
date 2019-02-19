@@ -20,8 +20,10 @@ main(void)
   printf("Enter temp (F): ");
   scanf("%lf", &temp);
 
+  /* Calculates the speed of sound based on temperature */
   speed_of_sound = calc_speed(temp);
 
+  /* Displays results */
   printf("Speed of sound @ T=%.2f is %.6f ft/s\n", temp, speed_of_sound);
   return (0);
 }

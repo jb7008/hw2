@@ -26,7 +26,9 @@ main(void)
   /* Rounds to_round to 2 decimal places */
   rounded = round(to_round);
   
+  /* Displays results */
   printf("Rounded %.6f\n", rounded);
+
   return (0);
 }
 

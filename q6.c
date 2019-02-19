@@ -53,6 +53,6 @@ calc_ft_per_sec(float time)
 float
 calc_m_per_sec(float time)
 {
-  /* Converts feet to meters then divides by time (V = d/t) */
+  /* Converts feet in a mile to meters then divides by time (V = d/t) */
   return (((FEET_PER_MILE / FEET_PER_KM) * M_PER_KM) / time);
 }
