@@ -67,7 +67,7 @@ calc_monthly_payment(int amt_borrowed, double monthly_interest_rate,
   double numerator,
     denominator;
   /* Uses formula iP/(1-(1 + i)^-n) where P = amount borrowed,
-   * i = monthly interest rate, and n = toal number of payments to calculate
+   * i = monthly interest rate, and n = total number of payments to calculate
    * monthly payment */
   numerator = monthly_interest_rate * amt_borrowed;
   denominator = ( 1 - pow( 1 + monthly_interest_rate, -1 * number_of_payments));

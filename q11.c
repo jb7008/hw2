@@ -13,7 +13,7 @@ double speeds_ratio(double max_speed, double min_speed);
 int
 main(void)
 {
-  double min_speed, /* Minumim speed */
+  double min_speed, /* Minimum speed */
     max_speed, /* Maximum speed */
     speed_ratio; /* Ratio between the speeds based on rpm */
 

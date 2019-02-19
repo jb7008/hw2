@@ -1,14 +1,15 @@
 /*
  * Programmer : Josh Booth      Date : Feb 15 , 2019
  * Instructor : Professor Hou   Class : ENGR 120 - 03
- * Program to calculate how quickly the flue spreads through a college campus
+ * Program to calculate how quickly the flu spreads through a college campus
  */
 
 #include <stdio.h> /* Includes printf, scanf */
 #include <math.h> /* Includes pow */
 
-int get_day(void);
-int num_of_cases(int day);
+int get_day(void); /* Gets number of days since initial report */
+int num_of_cases(int day); /* Calculates the number of cases based 
+ * on the number of days since initial report */
 
 int
 main(void)

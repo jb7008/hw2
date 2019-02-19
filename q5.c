@@ -6,7 +6,7 @@
  */
 
 #include <stdio.h> /* Includes prinf, scanf */
-#define ROUND_DECIDER (0.5) /* Will push number a hundreth higher to simulate 
+#define ROUND_DECIDER (0.5) /* Will push number a hundredth higher to simulate 
  * rounding up on truncation */
 
 /* Function prototype for rounding function */
